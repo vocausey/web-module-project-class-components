@@ -1,5 +1,6 @@
 import React from 'react'
-	
+
+import './Todo.css'	
 
 	const Item = (props) => {
 	    const handleClick = () => {

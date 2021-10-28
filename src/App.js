@@ -1,6 +1,7 @@
 import React from 'react';
 import TodoList from "./components/TodoList"
 import TodoForm from "./components/TodoForm"
+import "./components/Todo.css"
 
 const todos = [
   {
@@ -37,7 +38,7 @@ toggleItem = (id) => {
     }
   });
   this.setState({
-    todo: newList
+    todos: newList
   })
 };
 addItem =(title) =>{
